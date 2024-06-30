@@ -27,5 +27,5 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Frontend Mentor URL: [click here](https://your-solution-url.com)
-- Live Site URL: [click here](https://your-live-site-url.com)
+- Frontend Mentor URL: [click here](https://www.frontendmentor.io/solutions/profile-card-ptxNGBIOIq)
+- Live Site URL: [click here](https://hummingcoder.github.io/Profile-Card/)

@@ -1,0 +1,229 @@
+/* ---------css reset---------------> */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "kumbh sans", sans-serif;
+  color: hsl(229, 23%, 23%);
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+/* ---------background---------------> */
+
+main {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background: hsl(185, 75%, 39%);
+  display: grid;
+  place-content: center;
+  gap: 2rem;
+  overflow: hidden;
+}
+.bg {
+  position: absolute;
+}
+.bg.bg-top {
+  left: -770px;
+  top: -500px;
+}
+.bg.bg-bottom {
+  right: -700px;
+  bottom: -600px;
+}
+
+/* ---------card---------------> */
+
+article {
+  min-height: 342px;
+  min-width: 300px;
+  max-width: 375;
+  background: white;
+  z-index: 100;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0 12px 82px hsla(185, 80%, 27%, 0.625);
+}
+.bg-img {
+  position: absolute;
+  top: -5%;
+  left: 0;
+}
+.profile {
+  position: absolute;
+  top: 23%;
+  text-align: center;
+}
+.profile-img {
+  max-width: 100px;
+  border-radius: 100%;
+  border: 6px solid white;
+  margin-bottom: 0.7rem;
+}
+.profile-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6em;
+}
+.location {
+  font-size: 14px;
+  margin-top: 0.5rem;
+}
+
+small,
+.age,
+.location {
+  color: hsl(227, 10%, 46%);
+}
+
+.social {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  padding: 2em;
+  justify-content: space-between;
+  border-top: 1px solid hsla(0, 0%, 59%, 0.262);
+  gap: 1em;
+}
+.social-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4em;
+}
+.social-info b,
+.name {
+  font-size: 18px;
+}
+.social-info small {
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+/* ---------resposive---------------> */
+@media (min-width: 500px) {
+  .bg.bg-top {
+    left: -125%;
+    top: -80%;
+  }
+  .bg.bg-bottom {
+    right: -125%;
+    bottom: -80%;
+  }
+}
+@media (min-width: 600px) {
+  .bg.bg-top {
+    left: -105%;
+    top: -80%;
+  }
+  .bg.bg-bottom {
+    right: -105%;
+    bottom: -80%;
+  }
+}
+@media (min-width: 700px) {
+  .bg.bg-top {
+    left: -75%;
+    top: -80%;
+  }
+  .bg.bg-bottom {
+    right: -65%;
+    bottom: -100%;
+  }
+}
+@media (min-width: 800px) {
+  .bg.bg-top {
+    left: -65%;
+    top: -80%;
+  }
+  .bg.bg-bottom {
+    right: -45%;
+    bottom: -90%;
+  }
+}
+@media (min-width: 900px) {
+  .bg.bg-top {
+    left: -55%;
+    top: -80%;
+  }
+  .bg.bg-bottom {
+    right: -35%;
+    bottom: -90%;
+  }
+}
+@media (min-width: 1000px) {
+  .bg.bg-top {
+    left: -45%;
+    top: -80%;
+  }
+  .bg.bg-bottom {
+    right: -40%;
+    bottom: -95%;
+  }
+}
+@media (min-width: 1100px) {
+  .bg.bg-top {
+    left: -35%;
+    top: -80%;
+  }
+  .bg.bg-bottom {
+    right: -30%;
+    bottom: -90%;
+  }
+}
+@media (min-width: 1200px) {
+  .bg.bg-top {
+    left: -25%;
+    top: -80%;
+  }
+  .bg.bg-bottom {
+    right: -20%;
+    bottom: -90%;
+  }
+}
+@media (min-width: 1300px) {
+  .bg.bg-top {
+    left: -25%;
+    top: -70%;
+  }
+  .bg.bg-bottom {
+    right: -15%;
+    bottom: -90%;
+  }
+}
+@media (min-width: 1400px) {
+  .bg.bg-top {
+    left: -15%;
+    top: -70%;
+  }
+  .bg.bg-bottom {
+    right: -10%;
+    bottom: -80%;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  font-weight: 400;
+  color: hsl(229, 23%, 23%);
+  z-index: 99;
+}
+.attribution a {
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 1px;
+}
